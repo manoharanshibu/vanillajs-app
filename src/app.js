@@ -14,7 +14,7 @@ addBtn.onclick = function(){
 function addLI(targetElem){
     let li = document.createElement('li');
     let textNode = document.createTextNode(inputText.value),
-        done = document.createElement('buttons');
+        done = document.createElement('button');
     done.innerHTML = 'DONE!';
     done.setAttribute('onclick', 'onDone(this)');
     li.appendChild(textNode);
